@@ -1,0 +1,47 @@
+
+
+
+.MuiTypography-displayBlock {
+    font-size: 15px !important;
+}
+
+.MuiDivider-root {
+    height: 0 !important;
+}
+
+.MuiOutlinedInput-input {
+    padding: 12px !important;
+    /* max-width: 150px !important; */
+}
+
+.MuiTableCell-root {
+    padding: 8px !important;
+}
+
+.MuiTableCell-alignLeft {
+    border-right: 0.05px solid #e0e0e0;
+}
+
+.MuiTableCell-alignCenter {
+    border-right: 0.05px solid #e0e0e0;
+}
+
+.MuiTableCell-stickyHeader {
+    border-right: 0.05px solid #e0e0e0 !important;
+}
+
+
+:root {
+    --color-primary: #006F91;
+    --color-secondary: #FF0000;
+    --color-warning: #CFBA00;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-gray-1: #CCCCCC;
+    --color-gray-2: #ABABAB;
+    --color-gray-5: #474747;
+
+
+    --color-bg-gray: #E7E7E7;
+    --color-bg-warning: #FDFFB1;
+}

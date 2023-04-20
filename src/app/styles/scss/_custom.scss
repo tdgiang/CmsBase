@@ -1,0 +1,10 @@
+@import "variables";
+@import "src/scss/mixin";
+
+body {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+}

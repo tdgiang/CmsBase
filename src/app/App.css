@@ -1,0 +1,189 @@
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(166, 163, 163, 0.3);
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 4px;
+    background-color: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+}
+
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label:hover,
+.MuiTreeItem-root.Mui-selected:focus > .MuiTreeItem-content .MuiTreeItem-label {
+    background-color: rgb(255 255 255 / 8%) !important;
+}
+
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label,
+.MuiTreeItem-root.Mui-selected:focus > .MuiTreeItem-content .MuiTreeItem-label {
+    background-color: rgb(255 255 255 / 8%) !important;
+}
+
+.MuiTreeItem-label {
+    font-size: 18px !important;
+}
+.MuiTreeView-root {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: auto !important;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.MuiTreeItem-content {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 35px !important;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignCenter.MuiTableCell-stickyHeader {
+    word-break: break-word !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft {
+    word-break: break-word !important;
+}
+
+.MuiFormControl-root.MuiTextField-root.mb-6.w-full {
+    position: relative !important;
+}
+p.MuiFormHelperText-root.MuiFormHelperText-contained.Mui-error.MuiFormHelperText-marginDense {
+    position: absolute !important;
+    bottom: 0 !important;
+    margin-bottom: -20px !important;
+    margin-left: 0px !important;
+}
+.ck.ck-editor__main > .ck-editor__editable {
+    height: 400px !important;
+}
+
+.echarts-for-react {
+    height: 500px !important;
+}
+
+.MuiInputBase-input {
+    color: #000 !important;
+}
+
+.MuiTable-stickyHeader {
+    min-height: 36px !important;
+}
+
+*,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn_primary {
+    background-color: var(--color-primary) !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    height: 30 !important;
+}
+
+.btn_Cancel {
+    border-color: #ff0000 !important;
+    color: #ff0000 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    height: 30 !important;
+}
+
+
+
+
+
+.MuiTabs-indicator {
+    opacity: 0;
+}
+
+/* .MuiBox-root {
+    padding: 20px 0px !important;
+} */
+
+.MuiCheckbox-colorSecondary {
+    background-color: 'var(--color-primary)' !important;
+}
+.MuiRadio-colorSecondary.Mui-checked {
+    color: var(--color-primary) !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: var(--color-primary) !important;
+}
+
+.MuiPaginationItem-page.Mui-selected {
+    background-color: #006f91 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.MuiPaginationItem-outlined {
+    border: none !important;
+}
+
+
+.MuiTableRow-root th:first-child {
+    border-top-left-radius: 5px !important;
+}
+
+.MuiTableRow-root th:last-child {
+    border-top-right-radius: 5px !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+    color: var(--color-primary) !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: var(--color-primary) !important;
+}
+
+.sketch-picker  {
+    height: 370px !important;
+}
+
+.MuiDialog-paperFullWidth {
+    border-radius: 10px !important;
+}
+
+.MuiTabs-scroller > span {
+    border-bottom: 4px solid #13c244 !important;
+    margin-left: 10px;
+}
+
+/* .MuiTabs-fixed {
+    overflow: auto !important;
+} */
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+    color: var(--color-primary) !important;
+}
+
+.MuiTab-textColorInherit.Mui-selected {
+    border-bottom: 3px solid var(--color-primary) !important;
+    margin-left: 10px;
+}
+
+.MuiTabs-flexContainer {
+    overflow: auto !important;
+}
+
+/* .MuiButton-contained:hover {
+    background-color:  var(--color-primary) !important;
+} */
+/* .MuiButtonBase-root {
+    height:40px !important
+} */

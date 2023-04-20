@@ -1,0 +1,28 @@
+.txtTtie {
+    color: red;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .logoLogin {
+        top: 70px;
+        width: 350px;
+        height: 70;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logoLogin {
+        width: 350px;
+        height: 70;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .logoLogin {
+        width: 350px;
+        height: 70;
+        top: 10px;
+    }
+}
