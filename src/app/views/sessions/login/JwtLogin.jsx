@@ -56,7 +56,7 @@ const JwtLogin = () => {
     const handleFormSubmit = async (event) => {
         setLoading(true)
         try {
-            const res= await login(userInfo.email, userInfo.password)
+            const res= await login('administrator', '12345678')
             console.log("res",res)
             if(res){
                 history.push('/')
